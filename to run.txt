@@ -1,0 +1,18 @@
+(base) C:\Users\sarna>conda info --envs
+# conda environments:
+#
+base                  *  C:\ProgramData\Anaconda3
+ml                       C:\Users\sarna\.conda\envs\ml
+pygame_env               C:\Users\sarna\.conda\envs\pygame_env
+
+
+(base) C:\Users\sarna>conda activate ml
+
+(ml) C:\Users\sarna>cd C:\Users\sarna\Documents\Salary
+
+(ml) C:\Users\sarna\Documents\Salary>streamlit run app.py
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.16.3.13:8501
